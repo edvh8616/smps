@@ -29,7 +29,7 @@ with st.sidebar:
         help="Ruta del webhook sin el '/' inicial"
     )
     
-    api_endpoint = f"{n8n_url}/webhook/{webhook_path}"
+    api_endpoint = f"{n8n_url}/webhook-test/{webhook_path}"
     
     st.info(f"📍 Endpoint: `{api_endpoint}`")
     
