@@ -19,7 +19,7 @@ with st.sidebar:
     
     n8n_url = st.text_input(
         "URL de n8n",
-        value="http://localhost:5678",
+        value="https://impoundable-nikolai-unalphabetical.ngrok-free.dev",
         help="URL base de tu instancia de n8n"
     )
     
